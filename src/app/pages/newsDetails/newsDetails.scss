@@ -1,0 +1,25 @@
+.back {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif;
+    transition: .3s all;
+    &:hover {
+        right: 30px;
+        &:before {
+            width: 30px;
+            left: -40px;
+        }
+    }
+    &:before {
+        content: '';
+        width: 20px;
+        height: 2px;
+        background: #000;
+        position: absolute;
+        left: -30px;
+        top: 50%;
+        transition: .3s all;
+    }
+}

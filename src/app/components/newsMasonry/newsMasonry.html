@@ -1,0 +1,18 @@
+<masonry [useImagesLoaded]="true" [options]="{ gutter: 20 }">
+    <masonry-brick class="news-card" *ngFor="let news of data; let ind = index" [routerLink]="['/newsDetails', news.id]">
+        <div class="image">
+            <img src="{{news.urlToImage}}" alt="{{news.urlToImage}}">
+        </div>
+        <div class="content">
+            <div class="title">
+                {{news.title}}
+            </div>
+            <div class="desc">
+                {{news.description}}
+            </div>
+            <div class="info">
+                {{news.author}} · {{news.publishedAt | date}}
+            </div>
+        </div>
+    </masonry-brick>
+</masonry>

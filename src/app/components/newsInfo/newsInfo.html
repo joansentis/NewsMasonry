@@ -1,0 +1,15 @@
+<div class="news-info" *ngIf="data">
+    <div class="image" [ngStyle]="{'background-image': 'url(' + data.urlToImage + ')'}">
+    </div>
+    <div class="content">
+        <div class="title">
+            {{data.title}}
+        </div>
+        <div class="desc">
+            {{data.description}}
+        </div>
+        <div class="info">
+            {{data.author}} · {{data.publishedAt | date}}
+        </div>
+    </div>
+</div>
