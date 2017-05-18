@@ -1,0 +1,87 @@
+{
+    "status": "ok",
+    "source": "google-news",
+    "sortBy": "top",
+    "articles": [
+        {
+            "author": "Michael D. Shear",
+            "title": "Robert Mueller, New Special Counsel, Is Known for Independence",
+            "description": "Mr. Mueller, as head of the F.B.I. for 13 years and as a federal prosecutor, cultivated a reputation as an unflinching advocate for facts.",
+            "url": "https://www.nytimes.com/2017/05/17/us/politics/robert-mueller-fbi-investigation.html",
+            "urlToImage": "https://static01.nyt.com/images/2017/05/18/us/18profile2-web/18profile2-web-facebookJumbo.jpg",
+            "publishedAt": "2017-05-18T10:06:32Z"
+        },
+        {
+            "author": null,
+            "title": "Soundgarden frontman Chris Cornell, a founding father of grunge, dead at 52",
+            "description": "Cornell was in the middle of a nationwide tour.",
+            "url": "https://www.washingtonpost.com/news/morning-mix/wp/2017/05/18/soundgarden-frontman-chris-cornell-dead-at-52/",
+            "urlToImage": "https://images.washingtonpost.com/?url=http://img.washingtonpost.com/news/morning-mix/wp-content/uploads/sites/21/2017/05/AP_17138288239056.jpg&w=1484&op=resize&opt=1&filter=antialias",
+            "publishedAt": "2017-05-18T10:35:00Z"
+        },
+        {
+            "author": "https://www.facebook.com/daveweigel?fref=ts, https://www.facebook.com/madebonis",
+            "title": "Impeachment chatter ratchets up in halls of the Capitol",
+            "description": "The ‘I-word’ was being used before lawmakers found out that a special counsel had been appointed.",
+            "url": "https://www.washingtonpost.com/powerpost/impeachment-chatter-ratchets-up-in-halls-of-the-capitol/2017/05/17/a4608b78-3b32-11e7-9e48-c4f199710b69_story.html",
+            "urlToImage": "https://img.washingtonpost.com/rf/image_1484w/2010-2019/WashingtonPost/2011/03/11/National-Politics/Images/Muslims_Terror_Hearings_0af4c.jpg",
+            "publishedAt": "2017-05-17T11:53:00Z"
+        },
+        {
+            "author": "https://www.facebook.com/andyboxall",
+            "title": "The world wants cheap phones, but can Android Go deliver them?",
+            "description": "Android Go is Google’s latest try at reaching the next billion smartphone users, and although it’s exciting, and a strong proposition, it faces many of the same problems Google encountered with Android One.",
+            "url": "https://www.digitaltrends.com/mobile/android-go-rehashes-android-one-faces-the-same-problems/",
+            "urlToImage": "https://icdn4.digitaltrends.com/image/io_keynote_oped_06-1200x630-c.jpg",
+            "publishedAt": "2017-05-18T00:21:55Z"
+        },
+        {
+            "author": "Christopher Brennan",
+            "title": "Tulsa cop Betty Jo Shelby not guilty in death of Terence Crutcher",
+            "description": "A jury heard closing arguments in officer Betty Jo Shelby’s manslaughter trial Wednesday morning.",
+            "url": "http://www.nydailynews.com/news/national/prosecutors-police-knew-crutcher-killing-bad-shoot-article-1.3174049",
+            "urlToImage": "http://assets.nydailynews.com/polopoly_fs/1.3174999.1495076640!/img/httpImage/image.jpg_gen/derivatives/landscape_1200/killings-police-oklahoma.jpg",
+            "publishedAt": "2017-05-17T18:45:29Z"
+        },
+        {
+            "author": null,
+            "title": "Milwaukee Sheriff Clarke takes job with Homeland Security",
+            "description": "Milwaukee County Sheriff David Clarke, who built a following among conservatives with his provocativ...",
+            "url": "http://www.ajc.com/news/milwaukee-sheriff-clarke-takes-job-with-homeland-security/YJhaeyjaH4gnGAR22UcemM/",
+            "urlToImage": "http://www.ajc.com/rf/image_large/Wires/w2/AP_Top_News/2017/05/17/Images/ab59d7ba9b9542e18a6f0c80c26fa016.jpg",
+            "publishedAt": null
+        },
+        {
+            "author": "Ned Parker, Jonathan Landay and Warren Strobel",
+            "title": "Exclusive: Trump campaign had at least 18 undisclosed contacts with Russians - sources",
+            "description": "Michael Flynn and other advisers to Donald Trump’s campaign were in contact with Russian officials and others with Kremlin ties in at least 18 calls and emails during the last seven months of the 2016 presidential race, current and former U.S. officials familiar with the exchanges told Reuters.",
+            "url": "http://www.reuters.com/article/us-usa-trump-russia-contacts-idUSKCN18E106",
+            "urlToImage": "http://s4.reutersmedia.net/resources/r/?m=02&d=20170518&t=2&i=1185207531&w=&fh=545px&fw=&ll=&pl=&sq=&r=LYNXNPED4H0IU",
+            "publishedAt": "2017-05-18T10:01:05Z"
+        },
+        {
+            "author": "The Associated Press",
+            "title": "Dutch King Willem-Alexander Reveals He Was KLM Pilot for 21 Years",
+            "description": "Dutch king Willem-Alexander revealed he has been co-piloting KLM flights twice a month for 21 years in addition to royal duties.",
+            "url": "http://www.nbcnews.com/news/world/dutch-king-willem-alexander-reveals-he-was-klm-pilot-21-n761401",
+            "urlToImage": "https://media1.s-nbcnews.com/j/newscms/2017_20/2003956/170518-world-dutch-king-klm-0504_742bc0fcccdddccd042a34d2b5ef1a87.nbcnews-fp-1200-800.jpg",
+            "publishedAt": "2017-05-18T09:18:48Z"
+        },
+        {
+            "author": "Andrew Higgins",
+            "title": "Putin Offers to Provide a ‘Record’ of Trump’s Disclosures to Russian Envoys",
+            "description": "As with many of Mr. Putin’s maneuvers, his offer to release a record of a recent White House meeting involving top Russian diplomats seemed designed to unnerve and confuse.",
+            "url": "https://www.nytimes.com/2017/05/17/world/europe/trump-putin-russia.html",
+            "urlToImage": "https://static01.nyt.com/images/2017/05/18/world/18russia/18russia-facebookJumbo.jpg",
+            "publishedAt": "2017-05-18T04:48:39Z"
+        },
+        {
+            "author": "https://www.facebook.com/madebonis, https://www.facebook.com/daveweigel?fref=ts",
+            "title": "Putin paid Trump? Republicans think McCarthy’s statement has to be a joke.",
+            "description": "\"You have to be very careful when you’re using humor,\" said Rep. Dana Rohrabacher (R-Calif.), excusing Kevin McCarthy's suggestion that he'd been paid by Vladimir Putin. \"Kevin didn’t mean any harm.\"",
+            "url": "https://www.washingtonpost.com/news/powerpost/wp/2017/05/17/putin-paid-trump-republicans-think-mccarthys-statement-has-to-be-a-joke/",
+            "urlToImage": "https://img.washingtonpost.com/rf/image_1484w/2010-2019/WashingtonPost/2015/10/09/National-Politics/Images/2015-10-08T190114Z_01_WAS926_RTRIDSP_3_USA-CONGRESS-REPUBLICANS-4189.jpg",
+            "publishedAt": "2017-05-17T14:00:00Z"
+        }
+    ]
+}
