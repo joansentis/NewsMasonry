@@ -1,0 +1,7 @@
+<div class="news-list">
+    <newsMasonry [data]="newsList"></newsMasonry>
+    <div class="empty content" *ngIf="newsList.length === 0">
+        <h1>There is no content yet</h1>
+        <button (click)="loadNewsJSON()">Upload Demo</button>
+    </div>
+</div>

@@ -6,7 +6,7 @@ import { Router } from '@angular/router';
 @Component({
   moduleId: module.id,
   selector: 'newsList',
-  template: '<div class="news-list"><newsMasonry [data]="newsList"></newsMasonry></div>',
+  templateUrl: 'newsList.html',
   styleUrls: ['newsList.scss']
 })
 export class newsListComponent implements OnInit {
@@ -20,6 +20,17 @@ export class newsListComponent implements OnInit {
     this.appService.getNews().subscribe(newsList => {
       newsList.map((news: any) => {
         this.newsList.push(new News(news._id, news.author, news.title, news.description, news.urlToImage, news.publishedAt));
+      });
+    });
+  }
+
+  loadNewsJSON() {
+    this.appService.getNewsJSON().subscribe(newsJSON => {
+      newsJSON.map((news: any) => {
+        console.log(news);
+        const newsAux = new News(news._id, news.author, news.title, news.description, news.urlToImage, news.publishedAt);
+        this.newsList.push(newsAux);
+        this.appService.postNews(newsAux).subscribe();
       });
     });
   }

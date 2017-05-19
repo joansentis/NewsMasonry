@@ -21,10 +21,30 @@ export class AppService {
         });
     }
 
+    postNews(obj): Observable<any> {
+        return new Observable<any>((observer: any) => {
+            this.http.post(this.newsListUrl, obj).subscribe(data => {
+                observer.next(data.json());
+            }, error => {
+                observer.error(error);
+            });
+        });
+    }
+
     getNewsById(id: string): Observable<any> {
         this.newsByIdUrl = APP_CONFIG.baseApiUrl + 'news/' + id;
         return new Observable<any>((observer: any) => {
             this.http.get(this.newsByIdUrl).subscribe(data => {
+                observer.next(data.json());
+            }, error => {
+                observer.error(error);
+            });
+        });
+    }
+
+    getNewsJSON(): Observable<any> {
+        return new Observable<any>((observer: any) => {
+            this.http.get('/src/app/news.json').subscribe(data => {
                 observer.next(data.json());
             }, error => {
                 observer.error(error);

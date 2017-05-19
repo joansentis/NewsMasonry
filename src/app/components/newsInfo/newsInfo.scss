@@ -4,12 +4,13 @@
         height: 400px;
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center top;
+        background-position: center;
     }
     .content {
         max-width: 70%;
         margin: 0 auto;
         padding-top: 30px;
+        padding-bottom: 100px;
         font-family: 'Roboto', serif;
         .title {
             font-family: 'Roboto Slab', serif;
@@ -25,6 +26,14 @@
             font-size: .9em;
             border-top: 1px solid #ddd;
             padding-top: 10px;
+        }
+    }
+}
+
+@media(max-width: 900px) {
+    .news-info {
+        .content {
+            max-width: 90%;
         }
     }
 }

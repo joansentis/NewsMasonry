@@ -1,4 +1,18 @@
 .news-list {
     padding: 20px;
     width: 100%;
+    .empty.content {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        button {
+            border: 0;
+            font-size: 1em;
+            padding: 10px 20px;
+            cursor: pointer;
+            outline: 0;
+        }
+    }
 }

@@ -7,7 +7,7 @@ import { News } from '../../models/news';
 @Component({
     moduleId: module.id,
     selector: 'newsDetails',
-    template: '<newsInfo [data]="news"></newsInfo> <span class="back" routerLink="/newsList">back to news</span>',
+    templateUrl: 'newsDetails.html',
     styleUrls: ['newsDetails.scss']
 })
 export class newsDetailsComponent implements OnInit {
@@ -20,7 +20,6 @@ export class newsDetailsComponent implements OnInit {
     ngOnInit() {
         this.appService.getNewsById(this.newsId).subscribe(news => {
             this.news = (new News(news._id, news.author, news.title, news.description, news.urlToImage, news.publishedAt));
-            console.log(this.news);
         });
     }
 }
