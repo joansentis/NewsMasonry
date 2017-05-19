@@ -27,11 +27,11 @@ export class newsListComponent implements OnInit {
   loadNewsJSON() {
     this.appService.getNewsJSON().subscribe(newsJSON => {
       newsJSON.map((news: any) => {
-        console.log(news);
         const newsAux = new News(news._id, news.author, news.title, news.description, news.urlToImage, news.publishedAt);
         this.newsList.push(newsAux);
         this.appService.postNews(newsAux).subscribe();
       });
+      location.reload();
     });
   }
 

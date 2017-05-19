@@ -1,12 +1,12 @@
 export class News {
-    private id: string;
+    private id: any;
     private author: string;
     private title: string;
     private description: string;
     private urlToImage: string;
     private publishedAt: string;
 
-    constructor($id: string, $author: string, $title: string, $description: string, $urlToImage: string, $publishedAt: string) {
+    constructor($id: any, $author: string, $title: string, $description: string, $urlToImage: string, $publishedAt: string) {
         this.id = $id;
         this.author = $author;
         this.title = $title;
@@ -15,11 +15,11 @@ export class News {
         this.publishedAt = $publishedAt;
     }
 
-    public get $id(): string {
+    public get $id(): any {
         return this.id;
     }
 
-    public set $id(value: string) {
+    public set $id(value: any) {
         this.id = value;
     }
 
