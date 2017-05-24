@@ -1,4 +1,4 @@
-# Haufe
+# NewsMasonry
 
 For run this project use **npm start**
 
